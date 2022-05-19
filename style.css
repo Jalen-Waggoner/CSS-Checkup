@@ -1,0 +1,49 @@
+
+
+body {
+    background-color: #aaaaaa;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    height: 40vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    box-shadow: 5px 7px 15px 0px;
+    width: 25vw;
+    height: 25vw;
+    align-items: center;
+    border: solid black 2px;
+}
+
+.page-header {
+    display: flex;
+    width: 20vw;
+    height: 3vw;
+    border: solid black 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper p {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.wrapper ul {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 10vw;
+    font-size: 1.25em;
+    gap: .75em;
+}
+
+#ids {
+    text-decoration: underline;
+}
+
